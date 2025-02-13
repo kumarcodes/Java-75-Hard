@@ -11,6 +11,7 @@ String reversed =  IntStream.rangeClosed(1, str.length())
                           .mapToObj(j -> str.charAt(str.length() - j))
                           .map(Object::toString)
                           .collect(Collectors.joining());
+````
 
 ## Day 2
 **Date:** 2025-02-14
@@ -21,6 +22,7 @@ String reversed =  IntStream.rangeClosed(1, str.length())
                           .mapToObj(j -> str.charAt(str.length() - j))
                           .map(Object::toString)
                           .collect(Collectors.joining());
+````
 
 ## Day 3
 **Date:** 2025-02-15
@@ -31,6 +33,7 @@ String reversed =  IntStream.rangeClosed(1, str.length())
                           .mapToObj(j -> str.charAt(str.length() - j))
                           .map(Object::toString)
                           .collect(Collectors.joining());
+````
 
 ## Day 4
 **Date:** 2025-02-16
@@ -41,7 +44,7 @@ String reversed =  IntStream.rangeClosed(1, str.length())
                           .mapToObj(j -> str.charAt(str.length() - j))
                           .map(Object::toString)
                           .collect(Collectors.joining());
-
+````
 
 ## Day 5
 **Date:** 2025-02-17
@@ -53,6 +56,7 @@ String reversed =  IntStream.rangeClosed(1, str.length())
                           .map(Object::toString)
                           .collect(Collectors.joining());
 
+````
 
 
 
