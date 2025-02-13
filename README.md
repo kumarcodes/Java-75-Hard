@@ -7,4 +7,8 @@ Welcome to my Java 75 Hard Challenge! This README file will document my daily pr
 
 **Code:**
 ```java
-// Your code for Day 1 goes here
+// Reverse a String Using Java 8
+String reversed =  IntStream.rangeClosed(1, str.length())
+                          .mapToObj(j -> str.charAt(str.length() - j))
+                          .map(Object::toString)
+                          .collect(Collectors.joining());
